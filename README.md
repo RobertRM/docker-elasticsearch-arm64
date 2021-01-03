@@ -1,4 +1,4 @@
-# Docker Elasticsearch form ARM64 
+# Docker Elasticsearch for ARM64 
 Dockerfile for Elasticsearch that runs on ARM64
 
 ## How to Use
