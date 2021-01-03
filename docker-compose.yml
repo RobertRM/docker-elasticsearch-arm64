@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   elasticsearch:
-    image: "RobertRM/docker-elasticsearch-arm64:$ELK_VERSION"
+    build: .
     environment:
       - node.name=elasticsearch
       - xpack.security.enabled=false
